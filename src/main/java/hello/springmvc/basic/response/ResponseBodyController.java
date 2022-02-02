@@ -56,7 +56,7 @@ public class ResponseBodyController {
     public HelloData responseBodyJsonV3() {
         HelloData helloData = new HelloData();
         helloData.setUsername("userA");
-        helloData.setAge(20);
+        helloData.setAge(200);
         return helloData;
     }
 
